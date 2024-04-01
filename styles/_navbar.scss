@@ -10,7 +10,7 @@
 
     // layout
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 
     .logo {
@@ -19,6 +19,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-right: auto;
 
       img {
         width: auto;
@@ -36,6 +37,10 @@
     }
 
     .navigation{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 100px;
 
       .cross{
         display: none;
@@ -138,6 +143,12 @@
         background: $textColor;
         margin-right: 0px;
         transition: margin-right 500ms ease-in-out;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0px;
 
         .cross{
           display: block;
