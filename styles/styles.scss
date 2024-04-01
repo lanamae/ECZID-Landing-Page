@@ -1,0 +1,23 @@
+// VARIABLES
+$bgColor: #cee2ff;
+$textColor: #032558;
+$primaryColor: #1459c0;
+$font: "Poppins", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font;
+  scroll-behavior: smooth;
+}
+
+
+
+@import "navbar";
+@import "hero";
+@import "about";
+@import "eczid";
+@import "programs";
+@import "research";
+@import "footer";

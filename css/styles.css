@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.main .navbar {
+  width: 100%;
+  height: 120px;
+  background: #cee2ff;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .navbar .logo {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .navbar .logo img {
+  width: auto;
+  height: 7rem;
+}
+.main .navbar .logo a {
+  display: block;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.8rem;
+  color: white;
+  font-weight: 700;
+}
+.main .navbar .navigation .cross {
+  display: none;
+}
+.main .navbar .navigation .navlinks ul {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  list-style: none;
+}
+.main .navbar .navigation .navlinks ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  transition: width 1s ease-in;
+}
+.main .navbar .navigation .navlinks ul li a:hover {
+  color: #1459c0;
+}
+.main .navbar .navigation .navlinks ul li a:hover::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #1459c0;
+}
+.main .navbar .navigation button {
+  border-style: none;
+  border-radius: 4px;
+  box-shadow: 0px 0px 20px #032558;
+  padding: 12px 32px;
+  background: #032558;
+  cursor: pointer;
+}
+.main .navbar .navigation button a {
+  text-decoration: none;
+  color: #cee2ff;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .main .navbar {
+    width: 100%;
+    height: 80px;
+    background: #cee2ff;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main .navbar .logo {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .navbar .logo img {
+    width: auto;
+    height: 4rem;
+  }
+  .main .navbar .logo a {
+    display: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.8rem;
+    color: white;
+    font-weight: 700;
+  }
+  .main .navbar .navigation.show {
+    width: 80vh;
+    height: 100vh;
+    background: #cee2ff;
+    position: absolute;
+    top: 0;
+    padding: 30px 50px;
+    background: #032558;
+    margin-right: 0px;
+    transition: margin-right 1500ms ease-in-out;
+  }
+  .main .navbar .navigation.show .cross {
+    display: block;
+    font-size: 32px;
+    color: #cee2ff;
+    padding: 0px 0px 20px 10px;
+  }
+  .main .navbar .navigation.show .navlinks ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 2.5rem;
+    list-style: none;
+  }
+  .main .navbar .navigation.show .navlinks ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    transition: width 1s ease-in;
+    color: #cee2ff;
+  }
+  .main .navbar .navigation.show .navlinks ul li a:hover {
+    color: #1459c0;
+  }
+  .main .navbar .navigation.show .navlinks ul li a:hover::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #1459c0;
+  }
+  .main .navbar .navigation.show button {
+    border-style: none;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 12px 32px;
+    background: #cee2ff;
+    cursor: pointer;
+    margin-top: 32px;
+  }
+  .main .navbar .navigation.show button a {
+    text-decoration: none;
+    color: #032558;
+    font-size: 1rem;
+  }
+  .main .navbar .navigation {
+    margin-right: -1000px;
+  }
+  .main .navbar .menu {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .main .navbar .menu span {
+    display: flex;
+    content: " ";
+    width: 85%;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #032558;
+  }
+}
+.main {
+  width: 100%;
+  height: auto;
+}
+.main .hero {
+  width: 100%;
+  height: 100vh;
+  background: #1459c0;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.main .about {
+  width: 100%;
+  height: 200vh;
+  background: #cee2ff;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.main .eczid {
+  width: 100%;
+  height: 200vh;
+  background: #032558;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.main .programs {
+  width: 100%;
+  height: 200vh;
+  background: lightblue;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.main .research {
+  width: 100%;
+  height: 100vh;
+  background: cyan;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.main footer {
+  width: 100%;
+  height: 250px;
+  background: black;
+}/*# sourceMappingURL=styles.css.map */
