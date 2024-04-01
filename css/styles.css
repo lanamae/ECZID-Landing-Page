@@ -201,10 +201,29 @@
   width: 100%;
   height: auto;
 }
+@keyframes hero {
+  50% {
+    background-image: url("../ASSETS/hero1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  75% {
+    background-image: url("../ASSETS/hero2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100% {
+    background-image: url("../ASSETS/hero3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 .main .hero {
   width: 100%;
   height: 100vh;
-  background: #1459c0;
 }
 
 .main {
