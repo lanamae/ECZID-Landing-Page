@@ -116,7 +116,7 @@
     padding: 30px 50px;
     background: #032558;
     margin-right: 0px;
-    transition: margin-right 1500ms ease-in-out;
+    transition: margin-right 500ms ease-in-out;
   }
   .main .navbar .navigation.show .cross {
     display: block;
